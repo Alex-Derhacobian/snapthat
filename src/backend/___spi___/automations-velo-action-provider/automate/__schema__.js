@@ -1,0 +1,2 @@
+export interface Payload {
+    payload: { 'taskUpdateDate': string; 'taskContactId': string; 'taskCreationDate': string; 'taskTitle': string; 'taskDueDate': string; 'taskId': string; 'contact': { 'name': { 'last': string; 'first': string; }; 'email': string; 'locale': string; 'company': string; 'birthdate': string; 'address': { 'city': string; 'addressLine': string; 'formattedAddress': string; 'country': string; 'postalCode': string; 'addressLine2': string; 'subdivision': string; }; 'jobTitle': string; 'phone': string; }; }}
